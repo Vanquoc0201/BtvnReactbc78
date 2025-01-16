@@ -1,0 +1,25 @@
+.seat {
+    border: 1px solid;
+    // padding: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.seatSold {
+    background-color: red;
+    cursor: no-drop;
+}
+.seatChoosing {
+    background-color: green;
+}
+body {
+    background-image: url('./bookingticket.jpg'); /* Đường dẫn đến hình ảnh */
+    background-size: cover; /* Đảm bảo hình ảnh phủ kín toàn bộ trang */
+    background-position: center; /* Căn giữa hình ảnh */
+    background-attachment: fixed; /* Giữ hình nền cố định khi cuộn trang */
+    filter: brightness(0.7);
+}
+*{
+    color: white
+}
+  
